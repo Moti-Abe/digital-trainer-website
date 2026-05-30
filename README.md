@@ -1,15 +1,8 @@
 #  🏋️‍♂️ Digital Trainer Website
-<<<<<<< HEAD
-Digital Trainer is a responsive fitness and gym trainer website built to showcase workout programs, pricing plans, and personal training services. The platform combines **fitness passion** with **technology** to help people achieve their health goals.
-
-🔗 **Live Demo:**  
-[https://digital-trainer.vercel.app/](https://digital-trainer-app.vercel.app/)
-=======
 Moti Fitness App with Digital Trainer app is a responsive fitness and gym trainer website built to showcase workout programs, pricing plans, and personal training services. The platform combines **fitness passion** with **technology** to help people achieve their health goals.
 
 🔗 **Live Demo:**  
 https://digital-trainer-app.vercel.app
->>>>>>> temporary-branch
 
 ## 📌 Features
 
