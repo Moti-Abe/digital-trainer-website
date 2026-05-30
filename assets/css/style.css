@@ -3405,6 +3405,299 @@ hr {
   background-attachment: fixed;
 }
 
+/* line 1, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
+.hero-modern {
+  position: relative;
+  padding: 140px 0 110px;
+  background: radial-gradient(1200px circle at 10% 10%, rgba(255, 19, 19, 0.18), transparent 50%),
+              linear-gradient(120deg, #070707 0%, #0f0f0f 45%, #120909 100%);
+  overflow: hidden;
+}
+
+.hero-modern::before {
+  content: "";
+  position: absolute;
+  right: -120px;
+  top: -120px;
+  width: 360px;
+  height: 360px;
+  background: radial-gradient(circle, rgba(255, 19, 19, 0.35), rgba(255, 19, 19, 0));
+  filter: blur(10px);
+}
+
+.hero-modern::after {
+  content: "";
+  position: absolute;
+  left: -180px;
+  bottom: -140px;
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0));
+}
+
+.hero-modern__grid {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-modern__text {
+  flex: 1 1 55%;
+  max-width: 620px;
+}
+
+.hero-modern__title {
+  font-size: 84px;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  line-height: 0.95;
+  letter-spacing: 1px;
+}
+
+.hero-modern__description {
+  color: rgba(255, 255, 255, 0.86);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 1.7;
+  max-width: 520px;
+  margin-bottom: 20px;
+}
+
+.hero-modern__tagline {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.hero-modern__media {
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-modern__image {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45);
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-modern__title {
+    font-size: 72px;
+  }
+
+  .hero-modern__description {
+    font-size: 18px;
+  }
+
+  .hero-modern__tagline {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-modern {
+    padding: 120px 0 90px;
+  }
+
+  .hero-modern__grid {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-modern__title {
+    font-size: 60px;
+  }
+
+  .hero-modern__description {
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-modern__tagline {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-modern {
+    padding: 110px 0 80px;
+  }
+
+  .hero-modern__grid {
+    flex-direction: column;
+    text-align: center;
+    gap: 36px;
+  }
+
+  .hero-modern__title {
+    font-size: 40px;
+  }
+
+  .hero-modern__description {
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-modern__tagline {
+    font-size: 14px;
+  }
+}
+
+/* line 220, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
+.home-page .traning-categories {
+  padding: 90px 0;
+  background: linear-gradient(180deg, #0d0d0d 0%, #040404 100%);
+}
+
+.home-page .traning-categories .single-topic {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.45);
+}
+
+.home-page .team-area {
+  padding: 110px 0 80px;
+  background: #0a0a0a;
+}
+
+.home-page .team-area .single-cat {
+  border-radius: 16px;
+  background: #0f0f0f;
+  padding: 26px 22px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-page .team-area .single-cat:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.5);
+}
+
+.home-page .team-area .single-cat h5 a,
+.home-page .team-area .single-cat p {
+  color: #f5f5f5;
+}
+
+.home-page .section-tittle h2,
+.home-page .section-tittle2 h2,
+.home-page .features-caption h3,
+.home-page .features-caption p {
+  color: #f5f5f5;
+}
+
+.home-page .section-tittle h2,
+.home-page .section-tittle2 h2 {
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.home-page p,
+.home-page .single-cat p,
+.home-page .features-caption p {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.2px;
+}
+
+.home-page .single-cat h5 a,
+.home-page .properties__caption .month,
+.home-page .properties__caption p,
+.home-page .properties__caption span {
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.home-page .properties__caption p,
+.home-page .properties__caption span {
+  font-size: 15px;
+}
+
+@media (max-width: 991px) {
+  .home-page .section-tittle h2,
+  .home-page .section-tittle2 h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-page .section-tittle h2,
+  .home-page .section-tittle2 h2 {
+    font-size: 32px;
+  }
+
+  .home-page p,
+  .home-page .single-cat p,
+  .home-page .features-caption p {
+    font-size: 15px;
+  }
+}
+
+.home-page .traning-categories .topic-content h3,
+.home-page .traning-categories .topic-content p {
+  color: #fff;
+}
+
+.home-page .gallery-area {
+  background: #050505;
+  padding: 100px 0;
+}
+
+.home-page .gallery-area .box {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
+}
+
+.home-page .pricing-area {
+  background: linear-gradient(180deg, #070707 0%, #0e0e0e 100%);
+}
+
+.home-page .pricing-area .properties__card {
+  border-radius: 18px;
+  background: #0f0f0f;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.45);
+}
+
+.home-page .pricing-area .properties__caption,
+.home-page .pricing-area .properties__caption p,
+.home-page .pricing-area .properties__caption span {
+  color: #f5f5f5;
+}
+
+.home-page .about-area2 {
+  background: #0a0a0a;
+}
+
+.home-page .services-area {
+  padding: 90px 0 70px;
+  background: #050505;
+}
+
+.home-page .services-area .single-services {
+  border-radius: 16px;
+  background: #0f0f0f;
+  padding: 26px 22px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
 /* line 44, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption {
   overflow: hidden;
